@@ -1,0 +1,820 @@
+.navbar-default {
+    background-color: #dedede;
+    background-image: none;
+    padding: 15px 0;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-brand {
+    text-align: center;
+    margin-top: -18px;
+}
+
+.navbar-brand img {
+    margin: auto;
+}
+
+.navbar-brand h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.navbar-brand p {
+    font-family: 'Lato', sans-serif;
+    font-size: 4px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav li a{
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.navbar-default .navbar-nav li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 18%;
+    width: 65%;
+    bottom: 8px;
+    height: 2px;
+    z-index: 1;
+    background-color: #878787;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav li a:hover:after{
+    opacity: 1;
+}
+
+/* section "banner-section" */
+
+.banner {
+    position: relative;
+    top: 170px;
+}
+
+.banner-section {
+    background-image: repeating-linear-gradient(-70deg,#dedede,#dedede 150px,#e2e2e2 100px,#e2e2e2 300px);
+    padding: 45px 0 10px 0;
+}
+
+.banner-img {
+    max-width: 572px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner h1 {
+    font-family: 'Asap', sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    color: #4d4d4d;
+    line-height: 67px;
+    margin: 0px;
+}
+
+.banner p {
+    font-family: 'Asap', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 67px;
+    color: #909090;
+    margin: 0px;
+}
+
+.banner-button {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #4d4d4d;
+    text-align: center;
+    line-height: 3em;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.banner-button:hover {
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0px 12px 30px 5px rgba(119,119,119,0.6);
+}
+
+/* know more about me */
+
+.KnowMore {
+    padding: 110px 0 244px 0;
+}
+
+.KnowMore-block {
+    max-width: 470px;
+    margin-right: 115px;
+    position: relative;
+    top: 65px;
+}
+
+.KnowMore-block h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #717171;
+}
+
+.KnowMore-block h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #717171;
+    margin-bottom: 20px;
+}
+
+.KnowMore-block p {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #4d4d4d;
+    margin-bottom: 30px;
+}
+
+.KnowMore-block a {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4d4d4d;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #4d4d4d;
+    text-align: center;
+    line-height: 3em;
+    margin-bottom: 85px;
+    transition: 0.4s;
+}
+
+.KnowMore-block a:hover {
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0px 10px 30px 12px rgba(119,119,119,0.6);
+}
+
+.KnowMore-img {
+    max-width: 570px;
+}
+
+.KnowMore-img img {
+    width: 100%;
+}
+
+/* services */
+
+.services {
+    padding-bottom: 200px;
+}
+
+.services-img {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+.services h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #6f6f6f;
+    margin-bottom: 60px;
+}
+
+.services h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #6f6f6f;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.services-name {
+    font-family: 'Asap', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #4d4d4d;
+    margin-top: 15px;
+    margin-bottom: 85px;
+}
+
+/* section "skills" */
+
+.skills {
+    margin-bottom: 250px;
+}
+
+.skills h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #6f6f6f;
+    margin-bottom: 60px;
+}
+
+.skills h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #6f6f6f;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* section "portfolio" */
+
+.portfolio {
+    padding-bottom: 245px;
+}
+
+.portfolio h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #6f6f6f;
+    margin-bottom: 45px;
+}
+
+.portfolio h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #6f6f6f;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.portfolio_photo {
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.portfolio_photo:hover {
+    box-shadow: 0px 0px 30px 11px rgba(119,119,119,0.6);
+}
+
+.portfolio_photo img {
+    width: 100%;
+}
+
+.portfolio-button a {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-decoration: none;
+    display: inline-block;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #4d4d4d;
+    text-align: center;
+    line-height: 3em;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.portfolio-button a:hover {
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0px 8px 30px 10px rgba(119,119,119,0.6);
+}
+
+
+/* section "testimonials" */
+
+.testimonials {
+    padding-bottom: 170px;
+}
+
+.testimonials-photo {
+    max-width: 160px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.testimonials-photo img{
+    width: 100%;
+}
+
+.testimonials-description {
+    display: inline-block;
+    text-align: left;
+    max-width: 590px;
+}
+
+
+
+.testimonials-description h3 {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 49px;
+    color: #373737;
+    margin: 0px;
+}
+
+.testimonials-description h4 {
+    font-family: 'Asap', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color: #373737;
+    margin: 0px;
+}
+
+.testimonials-description p {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.testimonials h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #6f6f6f;
+    margin-bottom: 60px;
+}
+
+.testimonials h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #6f6f6f;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.page-carousel {
+    padding-bottom: 50px;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.owl-dot {
+    outline: none;
+    margin: 0px 2px;
+}
+
+.owl-dots span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 85px;
+    max-width: 960px;
+    margin: auto;
+}
+
+
+.owl-dots .active span {
+    background-color: black;
+}
+
+
+/* section "statistic" */
+
+.statistic {
+    padding-bottom: 220px;
+}
+
+.statistic-img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.statistic-img img {
+    width: 100%;
+}
+
+.statistic-number {
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #363636;
+    line-height: 32px;
+    margin: 30px 0 5px 0;
+}
+
+.statistic-name {
+    font-family: 'Asap', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #363636;
+    line-height: 32px;
+}
+
+/* section "SayHello" */
+
+.SayHello {
+    background-image: url("../images/contact_bg.png");
+    background-size: cover;
+    padding: 145px 0 30px 0;
+}
+
+.SayHello h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.SayHello h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #c1c1c1;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    height: 58px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 67px;
+    color: #4d4d4d;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-group input::placeholder {
+    color: #4d4d4d
+}
+
+.SayHello .container form {
+    max-width: 770px;
+    margin: auto;
+}
+
+.form-group textarea {
+    height: 210px;
+    border-radius: 0px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 67px;
+    color: #4d4d4d;
+    resize: none;
+}
+
+.form-group textarea::placeholder {
+    color: #4d4d4d
+}
+
+.SayHello .container button {
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4d4d4d;
+    border-radius: 0px;
+    width: 125px;
+    height: 50px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.SayHello .container button:hover {
+    transform: scale(1.2);
+}
+
+.SayHello .container button:after {
+    content: "\f138";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-left: 7px;
+}
+
+footer {
+    padding-top: 25px;
+    border-top: 1px solid white;
+}
+
+.collaboration-soclink {
+    color: #4d4d4d;
+    font-size: 16px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 2em;
+    margin: 0 5px;
+    transition: 0.4s;
+}
+
+.collaboration-links {
+    padding:  0 10px;
+}
+
+.collaboration-soclink:hover {
+    color: white;
+}
+
+.facebook:hover {
+    background-color: #1a4c85;
+}
+
+.twitter:hover {
+    background-color: #00c0ff;
+}
+
+.linkedin:hover {
+    background-color: #0077b5;
+}
+
+.google:hover {
+    background-color: #ec3333;
+}
+
+.behance:hover {
+    background-color: #4096cd;
+}
+
+.basketball:hover {
+    background-color: #c68bc0;
+}
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #4d4d4d;
+    cursor: pointer;;
+    width: 45px;
+    height: 45px;
+}
+
+#myBtn:hover {
+    box-shadow: 0px 0px 30px 11px rgba(255,250,250,0.7);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .KnowMore-block {
+        margin-right: 15px;
+    }
+    .KnowMore-img {
+        margin-top: 75px;
+    }
+    .banner {
+        top: 80px;
+    }
+}
+
+@media screen and (min-width: 992px)and (max-width: 1023px) {
+    .KnowMore-block {
+        margin-right: 15px;
+    }
+    .KnowMore-img {
+        margin-top: 75px;
+    }
+    .banner {
+        top: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .banner {
+        text-align: center;
+    }
+    .banner-img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 200px;
+    }
+    .KnowMore-block {
+        max-width: 100%;
+        text-align: center;
+    }
+    .KnowMore-block h2:before {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .KnowMore-img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .footer-text {
+        text-align: right;
+    }
+    #myBtn {
+        position: inherit;
+    }
+}
+
+@media screen and (min-width: 425px)and (max-width: 767px) {
+    .banner {
+        text-align: center;
+        top: 10px;
+    }
+    .banner-img {
+        margin-top: 30px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .KnowMore {
+        padding: 0px;
+    }
+    .KnowMore-block {
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .KnowMore-img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .KnowMore-block h2:before {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .services {
+        padding-bottom: 10px;
+    }
+    .skills {
+        margin-bottom: 60px;
+    }
+    .portfolio {
+        padding-bottom: 40px;
+    }
+    .testimonials-description {
+        text-align: center;
+    }
+    .testimonials {
+        padding-bottom: 50px;
+    }
+    .statistic {
+        padding-bottom: 50px;
+    }
+    .SayHello {
+        padding-top: 50px;
+    }
+    #myBtn {
+        position: inherit;
+    }
+    .footer-text {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 320px)and (max-width: 424px) {
+    .banner {
+        text-align: center;
+        top: 10px;
+    }
+    .banner h1 {
+        font-size: 65px;
+    }
+    .banner p {
+        font-size: 15px;
+    }
+    .banner-button {
+        margin-right: 0;
+        width: 120px;
+    }
+    .services-name {
+        margin-bottom: 40px;
+    }
+    .banner-img {
+        margin-top: 30px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .KnowMore {
+        padding: 0px;
+    }
+    .KnowMore-img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .KnowMore-block {
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .KnowMore-block h2:before {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .services {
+        padding-bottom: 10px;
+    }
+    .skills {
+        margin-bottom: 60px;
+    }
+    .portfolio {
+        padding-bottom: 40px;
+    }
+    .testimonials-description {
+        text-align: center;
+    }
+    .testimonials {
+        padding-bottom: 50px;
+    }
+    .statistic {
+        padding-bottom: 50px;
+    }
+    .SayHello {
+        padding-top: 50px;
+    }
+    #myBtn {
+        position: inherit;
+    }
+    .footer-text {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
